@@ -710,7 +710,12 @@ h2 {
 .works-grid .work-card {
   display: flex;
   flex-direction: column;
-  cursor: pointer;
+}
+.work-card-link {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: inherit;
 }
 .works-grid .work-body {
   padding: 24px 24px 28px;
