@@ -300,8 +300,14 @@ h2 {
 @media (max-width: 719px) {
   /* hero-bg.png's line-art sits in the four corners of a wide 16:9 image;
      on a narrow tall viewport "cover" crops straight into the empty
-     middle, so switch to "contain" to keep the corner art visible. */
+     middle, so switch to "contain" to keep the corner art visible.
+     Also drop the forced full-screen height: with "contain" the art
+     only fills a band at the top, so a forced 100svh leaves a big
+     empty gap under the CTA buttons. Let the hero hug its content
+     instead. */
   .hero {
+    min-height: 0;
+    padding-bottom: 56px;
     background-size: contain;
     background-position: top center;
   }
@@ -312,6 +318,9 @@ h2 {
   max-width: var(--page-max);
   margin: 0 auto;
   padding: 0 var(--pad-mobile);
+}
+@media (max-width: 719px) {
+  .hero-inner { padding-top: 240px; }
 }
 @media (min-width: 720px) {
   .hero-inner { padding: 0 var(--pad-desktop); }
