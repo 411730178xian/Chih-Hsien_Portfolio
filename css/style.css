@@ -297,6 +297,15 @@ h2 {
 @media (min-width: 720px) {
   .hero { min-height: 860px; min-height: 100svh; }
 }
+@media (max-width: 719px) {
+  /* hero-bg.png's line-art sits in the four corners of a wide 16:9 image;
+     on a narrow tall viewport "cover" crops straight into the empty
+     middle, so switch to "contain" to keep the corner art visible. */
+  .hero {
+    background-size: contain;
+    background-position: top center;
+  }
+}
 .hero-inner {
   position: relative;
   z-index: 1;
