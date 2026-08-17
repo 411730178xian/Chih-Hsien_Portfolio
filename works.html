@@ -8,7 +8,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=4">
+<link rel="stylesheet" href="css/style.css?v=5">
+<link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
 </head>
 <body>
 
@@ -24,11 +28,11 @@
         <a href="works.html" class="nav-link">完整作品集</a>
         <a href="index.html#contact" class="nav-contact">聯絡</a>
       </nav>
-      <button class="burger" type="button" aria-label="選單">
+      <button class="burger" type="button" aria-label="選單" aria-expanded="false" aria-controls="mobile-menu">
         <span></span><span></span><span></span>
       </button>
     </div>
-    <div class="mobile-menu">
+    <div class="mobile-menu" id="mobile-menu">
       <a href="index.html#about">關於 About</a>
       <a href="index.html#work">精選作品 Work</a>
       <a href="works.html">完整作品集 All Works</a>
