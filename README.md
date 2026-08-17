@@ -49,36 +49,36 @@ git push origin main
 
 ### 作品封面圖
 
-放到 `assets/images/works/`，依「完整作品集頁」的順序編號 `work-01.png` ～ `work-13.png`，建議尺寸 16:10、最寬 1600px。對照表：
+放到 `assets/images/works/`，依「完整作品集頁」的順序編號 `work-01.webp` ～ `work-13.webp`，建議尺寸 16:10、最寬 1600px。對照表：
 
 | 檔名 | 作品名稱 | 分類 |
 |---|---|---|
-| work-01.png | 觀星協會數位經營導入企劃《星之所嚮》 | 數位行銷 |
-| work-02.png | VOST 品牌建構 | 數位行銷 |
-| work-03.png | 紀錄片影音企劃《綠意—忠寮社區的綠色奇蹟》 | 數位行銷 |
-| work-04.png | 淡江教育科技系網站開發 | UI/UX 前端 |
-| work-05.png | 音浪狂潮 音樂互動教材 | UI/UX 前端 |
-| work-06.png | 海洋保育探險 AR 互動教材 | UI/UX 前端 |
-| work-07.png | 荒島求生：水晶爭奪戰 | UI/UX 前端 |
-| work-08.png | 淨零異世界－綠色淨化之路 | 系統邏輯 |
-| work-09.png | 驅趕老鼠大作戰 | 系統邏輯 |
-| work-10.png | 貓咪小教室 3D 虛擬展間 | 系統邏輯 |
-| work-11.png | 稻神之守 | 系統邏輯 |
-| work-12.png | 小小數學王 | 系統邏輯 |
-| work-13.png | 紐西蘭南島家庭自駕旅遊 Web | 系統邏輯 |
+| work-01.webp | 觀星協會數位經營導入企劃《星之所嚮》 | 數位行銷 |
+| work-02.webp | VOST 品牌建構 | 數位行銷 |
+| work-03.webp | 紀錄片影音企劃《綠意—忠寮社區的綠色奇蹟》 | 數位行銷 |
+| work-04.webp | 淡江教育科技系網站開發 | UI/UX 前端 |
+| work-05.webp | 音浪狂潮 音樂互動教材 | UI/UX 前端 |
+| work-06.webp | 海洋保育探險 AR 互動教材 | UI/UX 前端 |
+| work-07.webp | 荒島求生：水晶爭奪戰 | UI/UX 前端 |
+| work-08.webp | 淨零異世界－綠色淨化之路 | 系統邏輯 |
+| work-09.webp | 驅趕老鼠大作戰 | 系統邏輯 |
+| work-10.webp | 貓咪小教室 3D 虛擬展間 | 系統邏輯 |
+| work-11.webp | 稻神之守 | 系統邏輯 |
+| work-12.webp | 小小數學王 | 系統邏輯 |
+| work-13.webp | 紐西蘭南島家庭自駕旅遊 Web | 系統邏輯 |
 
 首頁「精選作品」區塊展示其中 6 個，直接沿用同一份檔案，不用另外準備圖片：
 
 | 首頁精選順序 | 作品名稱 | 對應檔案 |
 |---|---|---|
-| 01 | 音浪狂潮 音樂互動教材 | work-05.png |
-| 02 | 紀錄片影音企劃《綠意—忠寮社區的綠色奇蹟》 | work-03.png |
-| 03 | 淡江教育科技系網站開發 | work-04.png |
-| 04 | 荒島求生：水晶爭奪戰 | work-07.png |
-| 05 | 淨零異世界－綠色淨化之路 | work-08.png |
-| 06 | 紐西蘭南島家庭自駕旅遊 Web | work-13.png |
+| 01 | 音浪狂潮 音樂互動教材 | work-05.webp |
+| 02 | 紀錄片影音企劃《綠意—忠寮社區的綠色奇蹟》 | work-03.webp |
+| 03 | 淡江教育科技系網站開發 | work-04.webp |
+| 04 | 荒島求生：水晶爭奪戰 | work-07.webp |
+| 05 | 淨零異世界－綠色淨化之路 | work-08.webp |
+| 06 | 紐西蘭南島家庭自駕旅遊 Web | work-13.webp |
 
-> 檔名副檔名如果不是 `.png`（例如 `.jpg` / `.webp`），要同步修改 `index.html` / `works.html` 裡對應的 `<img src="assets/images/works/work-XX.png">` 路徑。
+> 作品封面圖統一用 `.webp`（比同畫質的 `.png` 小非常多，例如 12MB 壓到剩 1.2MB）。要放新圖時，先用任何線上轉檔工具或 `cwebp` 轉成 `.webp`，檔名副檔名如果不是 `.webp`，要同步修改 `index.html` / `works.html` 裡對應的 `<img src="assets/images/works/work-XX.webp">` 路徑。
 
 ## 履歷 PDF
 
