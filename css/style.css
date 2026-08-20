@@ -353,13 +353,13 @@ h2 {
 }
 .hero-sub {
   margin: 26px 0 0;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.9;
   color: var(--color-text-secondary);
   letter-spacing: .02em;
 }
 @media (min-width: 720px) {
-  .hero-sub { font-size: 15px; letter-spacing: .03em; }
+  .hero-sub { font-size: 16px; letter-spacing: .03em; }
 }
 .hero-cta {
   display: flex;
@@ -446,7 +446,7 @@ h2 {
 
 .about-body {
   margin: 0;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 2.1;
   color: var(--color-text);
   letter-spacing: .03em;
@@ -486,7 +486,7 @@ h2 {
 }
 .info-note {
   margin: 12px 0 0;
-  font-size: 13.5px;
+  font-size: 14.5px;
   line-height: 1.85;
   color: var(--color-text-secondary);
   padding-left: 14px;
@@ -535,7 +535,7 @@ h2 {
   gap: 8px;
 }
 .skill-list li {
-  font-size: 13.5px;
+  font-size: 14.5px;
   line-height: 1.7;
   color: var(--color-text-secondary);
 }
@@ -678,7 +678,7 @@ h2 {
 }
 .work-desc {
   margin: 12px 0 0;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.9;
   color: var(--color-text-secondary);
 }
@@ -735,7 +735,7 @@ h2 {
 }
 .works-grid .work-desc {
   margin: 12px 0 20px;
-  font-size: 13.5px;
+  font-size: 14.5px;
 }
 .works-grid .tag-row {
   margin-top: auto;
@@ -796,7 +796,7 @@ h2 {
 
 .works-intro {
   margin: 20px 0 0;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 2;
   color: var(--color-text-secondary);
   max-width: 560px;
@@ -832,7 +832,7 @@ h2 {
 }
 .step p {
   margin: 14px 0 0;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.95;
   color: var(--color-text-secondary);
 }
@@ -851,7 +851,7 @@ h2 {
 }
 .contact-copy p {
   margin: 22px 0 0;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 2;
   color: var(--color-text-secondary);
   max-width: 420px;

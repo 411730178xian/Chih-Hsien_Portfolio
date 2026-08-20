@@ -10,7 +10,7 @@
 ```
 portfolio/
 ├── index.html              首頁（Hero / 關於我 / 技能 / 精選作品 / 工作方法 / 聯絡）
-├── works.html               完整作品集頁（13 個作品，含分類篩選）
+├── works.html               完整作品集頁（目前顯示 12 個作品，含分類篩選；還有 1 個先隱藏，見下方說明）
 ├── css/
 │   └── style.css            所有樣式（顏色、字體、間距皆為 CSS 變數，改一處全站套用）
 ├── js/
@@ -65,7 +65,7 @@ git push origin main
 | work-10.webp | 貓咪小教室 3D 虛擬展間 | 系統邏輯 |
 | work-11.webp | 稻神之守 | 系統邏輯 |
 | work-12.webp | 小小數學王 | 系統邏輯 |
-| work-13.webp | 紐西蘭南島家庭自駕旅遊 Web | 系統邏輯 |
+| work-13.webp | 紐西蘭南島家庭自駕旅遊 Web | 系統邏輯（目前隱藏，見下方說明） |
 
 首頁「精選作品」區塊展示其中 6 個，直接沿用同一份檔案，不用另外準備圖片：
 
@@ -76,7 +76,9 @@ git push origin main
 | 03 | 淡江教育科技系網站開發 | work-04.webp |
 | 04 | 荒島求生：水晶爭奪戰 | work-07.webp |
 | 05 | 淨零異世界－綠色淨化之路 | work-08.webp |
-| 06 | 紐西蘭南島家庭自駕旅遊 Web | work-13.webp |
+| 06 | 稻神之守 | work-11.webp |
+
+> **紐西蘭南島家庭自駕旅遊 Web 目前先隱藏**（2026-08 起）：在 `index.html` 和 `works.html` 裡都還在，只是用 HTML 註解包起來，沒有刪掉。之後要恢復，搜尋「暫時移除」找到對應區塊，把註解拿掉即可；`index.html` 裡恢復時記得決定要換掉哪張精選卡片，`works.html` 的 `ALL WORKS / 12 PROJECTS` 也要記得改回 13。
 
 > 作品封面圖統一用 `.webp`（比同畫質的 `.png` 小非常多，例如 12MB 壓到剩 1.2MB）。要放新圖時，先用任何線上轉檔工具或 `cwebp` 轉成 `.webp`，檔名副檔名如果不是 `.webp`，要同步修改 `index.html` / `works.html` 裡對應的 `<img src="assets/images/works/work-XX.webp">` 路徑。
 
