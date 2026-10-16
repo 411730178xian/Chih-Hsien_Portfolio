@@ -78,7 +78,7 @@ git push origin main
 | 03 | 淡江教育科技系網站開發 | work-04.webp |
 | 04 | 荒島求生：水晶爭奪戰 | work-07.webp |
 | 05 | 淨零異世界－綠色淨化之路 | work-08.webp |
-| 06 | 稻神之守 | work-11.webp |
+| 06 | 彼得與狼 音樂賞析教材 | work-14.webp |
 
 > **紐西蘭南島家庭自駕旅遊 Web 目前先隱藏**（2026-08 起）：在 `index.html` 和 `works.html` 裡都還在，只是用 HTML 註解包起來，沒有刪掉。之後要恢復，搜尋「暫時移除」找到對應區塊，把註解拿掉即可；`index.html` 裡恢復時記得決定要換掉哪張精選卡片，`works.html` 的 `ALL WORKS / 14 PROJECTS` 也要記得改成 15。
 
