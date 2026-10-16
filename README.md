@@ -49,7 +49,7 @@ git push origin main
 
 ### 作品封面圖
 
-放到 `assets/images/works/`，依「完整作品集頁」的順序編號 `work-01.webp` ～ `work-13.webp`，建議尺寸 16:10、最寬 1600px。對照表：
+放到 `assets/images/works/`，檔名 `work-01.webp` ～ `work-13.webp` 是固定編號（不代表頁面上的排列順序，頁面上是依分類排在一起），建議尺寸 16:10、最寬 1600px。對照表：
 
 | 檔名 | 作品名稱 | 分類 |
 |---|---|---|
